@@ -5,143 +5,152 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SNEAK.</title>
-    <script src="https://kit.fontawesome.com/e02c66fab6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
 </head>
 <body>
     <header>
-        <section id="navbar">
-            <img src="./img/SNEAK.png" alt="SNEAK LOGO">
-
-            <nav class="navbar-links">
-                <ul>
-                    <li><a href="">Masculino</a></li>
-                    <li><a href="">Feminino</a></li>
-                    <li><a href="">Novidades</a></li>
-                    <li><a href="">Ofertas</a></li>
-                    <li><a href="">Coleções</a></li>
-                </ul>
-            </nav>
-        
-            <div class="search-bar">
-                <form class="search-field">
-                    <img src="./img/lupa.png" alt="lupa">
-                    <label for="search">
-                        <input type="search" name="search" placeholder="Procurar">
-                    </label>
-                </form>
-                <button>
-                    <img src="./img/carrinho.png" alt="">
-                </button>
-            </div>
-        </section>
+        <img src="./assets/SNEAK..png" alt="sneak logo">
+        <ul>
+            <li><a href="#">Masculino</a></li>
+            <li><a href="#">Feminino</a></li>
+            <li><a href="#">Novidades</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Coleções</a></li>
+        </ul>
+        <div class="header-search">
+            <label for="text">
+                <img src="./assets/Lupa.png" alt="lupa">
+                <input type="text" placeholder="Procurar">
+            </label>
+            <button><img src="./assets/Carrinho.png" alt="carrinho"></button>
+        </div>
     </header>
 
-    <main>
-        <section id="primary-content">
-            <div class="text-content">
-                <h1>SNEAK.<br>
-                Ultra Light</h1>
+    <main id="container">
+        <section class="conteudo-primario">
+            <div class="conteudo-direita">
+                <h1>SNEAK. <br>
+                    Ultra Light
+                </h1>
 
                 <p>
-                    Os tênis SNEAK foram criados especificamente para treinos de circuito, seja para aulas fitness em casa ou para sua própria rotina de treinos.
+                    Os tênis SNEAK foram criados especificamente para treinos de circuito, seja para aulas fitness em casa
+                    ou para sua própria rotina de treinos.
                 </p>
 
-                <button>Adicionar ao Carrinho<img src="./img/Vector.png" alt="carrinho"></button>
+                <button>Adicionar ao Carrinho <span>&#43;</span></button>
             </div>
-
-            <img src="./img/tenis.png" alt="tênis branco header">
+    
+            <div class="conteudo-esquerda">
+                <img src="./assets/Tenis Branco.png" alt="">
+            </div>
         </section>
 
-        <aside id="sneaker-colors">
-            <div class="color-content">
-                <h1>CORRIDA - MASCULINO</h1>
 
-                <div class="colors">
-                    <div class="branco"></div>
-                    <div class="bege"></div>
-                    <div class="cinza"></div>
-                    <div class="grafite"></div>
-                </div>
-            
-                <img src="./img/tenis-branco.png" alt="tênis branco">
-                <h4>Branco</h4>
-
-                <button>Adicionar ao Carrinho</button>
+        <aside id="tenis-cores">
+            <h1>CORRIDA - MASCULINO</h1>
+            <div class="cores">
+                <div class="branco"></div>
+                <div class="bege"></div>
+                <div class="cinza"></div>
+                <div class="grafite"></div>
             </div>
+
+            <img src="./assets/Tenis perfil.png" alt="tênis branco">
+
+            <h4>Branco</h4>
+
+            <button>Adicionar ao carrinho</button>
         </aside>
 
-        <section id="sneaker-description">
-            <div class="description_01">
-                <div class="leveza-e-agilidade">
-                    <h2>Leveza e agilidade</h2>
+
+        <section id="cards">
+            <div class="card">
+                <div class="card-texto">
+                    <h1>Leveza e agilidade</h1>
                     <p>
-                        A construção ligeira de espuma e malha do SNEAK proporcionam conforto e agilidade durante o exercício. Um “burpee break” na parte frontal do pé torna-o extremamente flexível para fazer prancha ou Mountain Climber.
+                        A construção ligeira de espuma e malha do SNEAK
+                        proporcionam conforto e agilidade durante o exercício. Um
+                        "burpee break" na parte frontal do pé torna-o extremamente
+                        flexível para fazer prancha ou Mountain Climber.
                     </p>
                 </div>
-                <img src="./img/leveza-e-agilidade.jpg" alt="">
+
+                <div class="imagem">
+                    <img src="./assets/Sola.png" alt="sola de tênis branco Hylo">
+                </div>
             </div>
 
-            <div class="description_02">
-                <img src="./img/amortecimento-imediato.jpg" alt="">
-                <div class="amortecimento-imediato">
-                    <h2>Amortecimento imediato</h2>
+            <div class="card">
+                <div class="imagem">
+                    <img src="./assets/Amortecimento imediato.png" alt="tênis branco Hylo correndo">
+                </div>
+                
+                <div class="card-texto">
+                    <h1>Amortecimento imediato</h1>
+
                     <p>
-                        A espuma grossa sob o pé absorve o impacto e retorna a energia ao correr com os joelhos altos e ao saltar. O suporte de arco da parte média do pé garante conforto durante todo o treino.
+                        A espuma grossa sob o pé absorve o impacto e retorna a
+                        energia ao correr com os joelhos altos e ao soltar. O suporte de
+                        arco da parte média do pé garante conforto durante todo o
+                        treino.
                     </p>
                 </div>
             </div>
+            
+            <div class="card">
+                <div class="card-texto">
+                    <h1>Sensação de estabilidade</h1>
 
-            <div class="description_03">
-                <div class="sensação-de-estabilizacao">
-                    <h2>Sensação de estabilização</h2>
                     <p>
-                        O outrigger - a proteção lateral - dá estabilidade ao pé ao fazer movimentos laterais, como por exemplo, o Skater Squat. 
+                        O outrigger - a proteção lateral - dá estabilidade ao pé
+                        ao fazer movimentos laterais, como por exemplo, o Skater Squat. 
                     </p>
                 </div>
-                <img src="./img/sensacao-de-estabilizacao.jpg" alt="">
-            </div>
-        </section>
 
-        <section id="sneaker-phrase">
-            <h1>
-                <img src="./img/arrow.png" alt="seta">CORRA<br>
-                                                    COMO SE O MUNDO<br>
-                                                    DEPENDESSE DE VOCÊ
-            </h1>
-        </section>
-
-        <section id="contact">
-            <div class="contact-field">
-                <div class="map-illustration"></div>
-
-                <div class="form-field">
-                    <h1>Entre em contato</h1>
-
-                    <form>
-                        <input type="text" name="nome" placeholder="Nome">
-                        <input type="email" name="email" placeholder="E-mail">
-                        <textarea placeholder="Comentários"></textarea>
-                    </form>
-        
-                    <div class="privacy-checkbox">
-                        <input type="checkbox" name="privacidade">
-                        <label for="privacidade">Concordo com a politica de privacidade</label>
-                    </div>
-                    
-                    <button>Enviar</button>
+                <div class="imagem">
+                    <img src="./assets/Sensação de estabilização.png" alt="tênis Hylo fazendo exercícios">
                 </div>
             </div>
-        </section>
+        </section> 
+
+        <aside id="frase">
+            <p>
+                <img src="./assets/Seta.png" alt="seta">CORRA<br>
+                COMO SE O MUNDO <br>
+                DEPENDESSE DE VOCÊ
+            </p>
+        </aside>
     </main>
 
-    <footer>
-        <section id="footer-info">
-            <img src="./img/SNEAK.png" alt="logo sneak footer">
+    <section id="mapa-input">
+        <div class="mapa">
+            <img src="./assets/Mapa.png" alt="mapa">
+        </div>    
 
-            <div class="about">
-                <h6>SOBRE SNEAK</h6>
+        <form>
+            <h1>Entre em contato</h1>
+            
+            <input type="text" placeholder="Nome"/>
+            <input type="email" placeholder="Email"/>
+            <textarea placeholder="Comentários"></textarea>
+            <label for="checkbox">
+                <input type="checkbox">
+                Concordo com a política de privacidade
+            </label>
+            <input type="button" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-logo">
+                <img src="./assets/SNEAK..png" alt="logo sneak">
+            </div>
+    
+            <div class="sobre">
+                <h4>SOBRE SNEAK</h4>
                 <ul>
                     <li><a href="">Novidades</a></li>
                     <li><a href="">Carreira</a></li>
@@ -150,27 +159,30 @@
                 </ul>
             </div>
     
-            <div class="help">
-                <h6>AJUDA</h6>
+            <div class="ajuda">
+                <h4>AJUDA</h4>
                 <ul>
                     <li><a href="">Status do pedido</a></li>
+                    <li><a href="">Carreira</a></li>
                     <li><a href="">Entregas e frete</a></li>
-                    <li><a href="">Trocas e devoluções</a></li>
                     <li><a href="">Opções de pagamento</a></li>
                 </ul>
             </div>
     
-            <div class="social-media">
-                <h6>REDES SOCIAIS</h6>
+            <div class="redes-sociais">
+                <h4>REDES SOCIAIS</h4>
                 <ul>
-                    <li><a href=""><img src="./img/instagram.png" alt="instagram"></a></li>
-                    <li><a href=""><img src="./img/twitter.png" alt="twitter"></a></li>
-                    <li><a href=""><img src="./img/facebook.png" alt="facebook"></a></li>
+                    <li><a href=""><img src="./assets/Instagram.png" alt="instagram"></a></li>
+                    <li><a href=""><img src="./assets/Facebook.png" alt="facebook"></a></li>
+                    <li><a href=""><img src="./assets/Twitter.png" alt="twitter"></a></li>
                 </ul>
             </div>
-        </section>
-
-        <h4>DESIGNED BY <span>mentorama</span></h4>
+        </div>
+        <div class="footer-bot">
+            <h4>
+                DESIGNED BY <span>mentorama</span>
+            </h4>
+        </div>
     </footer>
 </body>
 </html>
